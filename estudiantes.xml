@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<estudiantes>
+	<estudiante>
+		<id>1</id>
+		<nombre>Juan</nombre>
+		<calificacion>8.56</calificacion>
+		<beca>true</beca>
+	</estudiante>
+	<estudiante>
+		<id>2</id>
+		<nombre>María</nombre>
+		<calificacion>6.83</calificacion>
+		<beca>false</beca>
+	</estudiante>
+	<estudiante>
+		<id>3</id>
+		<nombre>Sara</nombre>
+		<calificacion>9.23</calificacion>
+		<beca>false</beca>
+	</estudiante>
+	<estudiante>
+		<id>4</id>
+		<nombre>Jacinto</nombre>
+		<calificacion>5.45</calificacion>
+		<beca>true</beca>
+	</estudiante>
+	<estudiante>
+		<id>5</id>
+		<nombre>Mario</nombre>
+		<calificacion>7.83</calificacion>
+		<beca>false</beca>
+	</estudiante>
+</estudiantes>
