@@ -6,8 +6,8 @@ import java.util.ArrayList;
 public abstract class GestorFicherosDAT{
     static int tamanoRegistro = (Integer.BYTES + (20 * Character.BYTES) + Double.BYTES + 1);
 
-    public static void guardarLista(ArrayList<Estudiante> estudiantes) {
-        try (RandomAccessFile raf = new RandomAccessFile("estudiantes.dat", "rw")) {
+    public static void guardarLista(ArrayList<Estudiante> estudiantes, String nombreArchivo) {
+        try (RandomAccessFile raf = new RandomAccessFile(nombreArchivo, "rw")) {
             for (Estudiante estudiante : estudiantes) {
                 raf.writeInt(estudiante.getId());
                 raf.writeChars(String.format("%-20s", estudiante.getNombre()));
